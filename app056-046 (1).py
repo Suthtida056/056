@@ -38,7 +38,7 @@ st.subheader("แบบฟอร์มสั่งซื้อ")
 name = st.text_input("ชื่อผู้ซื้อ")
 ticket = st.selectbox(
     "เลือกประเภทตั๋ว",
-    ["Stadard","VIP","Premium" ]
+    ["Standard","VIP","Premium" ]
 )
 
 quantity = st.number_input(
