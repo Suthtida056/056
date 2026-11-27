@@ -8,9 +8,9 @@ st.set_page_config(
 
 #กำหนดราคาตั๋ว
 prices = (
-    "Standard":100
-    "VIP":250
-    "Premium":400
+    "Standard":100,
+    "VIP":250,
+    "Premium":400,
 )
 
 #การแสดงหัวข้อเว็บไซต์
@@ -45,7 +45,7 @@ quantity = st.nuber_input(
     "จำนวนตั๋ว"
     min_value=1,
     max_value=10,
-    value=1
+    value=1,
 )
 
 #คำนวณราคา
