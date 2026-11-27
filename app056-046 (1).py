@@ -56,7 +56,7 @@ st.write("ราคาต่อตั๋ว:",price,"บาท")
 st.write("จำนวน:",price,"ใบ")
 st.subheader(f"ยอดรวม{total:,}บาท")
 
-st.dicider()
+st.divider()
 
 #ยืนยันการสั่งซื้อ
 if st.button("ยืนยันการสั่งซื้อ"):
@@ -72,4 +72,4 @@ if st.button("ยืนยันการสั่งซื้อ"):
     st.write("ราคาต่อตั๋ว:",price,"บาท")
 
     st.success(f"ยอดชำระ{total:,}บาท")
-st.caption("DIGITAL BOOKINZG")
+st.caption("DIGITAL BOOKING")
