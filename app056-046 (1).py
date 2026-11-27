@@ -7,11 +7,11 @@ st.set_page_config(
 )
 
 #กำหนดราคาตั๋ว
-prices = (
+prices = {
     "Standard":100,
     "VIP":250,
-    "Premium":400,
-)
+    "Premium":400
+}
 
 #การแสดงหัวข้อเว็บไซต์
 st.title("⛟ระบบจองตํ่วคอนเสิร์ต")
