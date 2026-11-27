@@ -2,7 +2,7 @@ import streamlit as st
 
 #ตั้งค่าหน้าเว็บไซต์
 st.set_page_config(
-    page_title = "ระบบจองตั๋วคอนเสิร์ต"
+    page_title = "ระบบจองตั๋วคอนเสิร์ต",
     page_icon = "⛟"
 )
 
