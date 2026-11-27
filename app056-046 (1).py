@@ -37,7 +37,7 @@ st.divider()
 st.subheader("แบบฟอร์มสั่งซื้อ")
 name = st.text_input("ชื่อผู้ซื้อ")
 ticket = st.selectbox(
-    "เลือกประเภทตั๋ว"
+    "เลือกประเภทตั๋ว",
     ["Stadard","VIP","Premium" ]
 )
 
