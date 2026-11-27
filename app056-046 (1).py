@@ -9,7 +9,7 @@ st.set_page_config(
 #กำหนดราคาตั๋ว
 prices = (
     "Standard":100
-    "VIP": 250
+    "VIP":250
     "Premium":400
 )
 
